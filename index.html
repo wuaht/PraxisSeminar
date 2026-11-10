@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kunst W-Seminar – Comic in der Kunst</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Comic+Neue:wght@400;700&display=swap" rel="stylesheet" />
+  <script src="https://kit.fontawesome.com/64ce605751.js" crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <nav>
+    <a href="#" class="nav-logo">W-Seminar</a>
+    <ul class="nav-links" role="list">
+      <li><a href="#galerie">Galerie</a></li>
+      <li><a href="#ueber">Über das Projekt</a></li>
+      <li><a href="https://github.com/wuaht/PraxisSeminar" target="_blank" rel="noopener" aria-label="GitHub-Repository"><i class="fa-brands fa-github" aria-hidden="true"></i></a></li>
+    </ul>
+  </nav>
+
+  <section class="hero">
+    <span class="hero-eyebrow">Q12/Q13 · 2026</span>
+    <p class="bubble">Hallo! Willkommen<br>in unserer Galerie!</p>
+    <h1 id="hero-heading">W-SEMINAR!<br>COMIC IN DER KUNST</h1>
+    <p class="hero-sub">
+      Eine Webseite im Comic-Stil - inspiriert vom Neobrutalismus.
+    </p>
+    <a href="#galerie" class="hero-cta">→ Zur Galerie</a>
+  </section>
+
+  <div class="divider-zag" aria-hidden="true"></div>
+
+  <section id="galerie" class="ben-day-yellow">
+    <div class="galerie-inner">
+      <div class="galerie-header">
+        <span class="section-label">Galerie</span>
+        <h2 class="section-title" id="galerie-heading">Werke</h2>
+        <p>
+          Arbeiten aus dem Kurs – klick dich mit den Pfeilen durch oder wähl unten eine Person aus.
+        </p>
+      </div>
+
+      <div class="carousel" id="carousel" aria-roledescription="Karussell" aria-label="Kunstwerke aus dem Kurs">
+        <img class="carousel-breakout" src="bilder/9.png" alt="" aria-hidden="true" width="613" height="437" />
+
+        <div class="carousel-stage">
+          <button class="carousel-btn carousel-prev" type="button" aria-label="Vorheriges Werk">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 4 7 12l8 8" /></svg>
+          </button>
+
+          <figure class="carousel-frame">
+            <img class="carousel-img" id="carousel-img" src="bilder/1.webp" alt="" />
+            <figcaption class="carousel-caption" aria-live="polite">
+              <span class="carousel-artist" id="carousel-artist">A. L.</span>
+              <span class="carousel-count" id="carousel-count">1 / 6</span>
+            </figcaption>
+          </figure>
+
+          <button class="carousel-btn carousel-next" type="button" aria-label="Nächstes Werk">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m9 4 8 8-8 8" /></svg>
+          </button>
+        </div>
+
+        <div class="artist-tabs" role="tablist" aria-label="Künstler*innen" id="artist-tabs"></div>
+        <div id="artist-panels"></div>
+      </div>
+    </div>
+  </section>
+
+  <div class="divider-zag" aria-hidden="true"></div>
+
+  <section id="ueber" class="ben-day-blue" aria-labelledby="ueber-heading">
+    <div class="ueber-inner">
+      <div class="ueber-text">
+        <span class="section-label">Über das Projekt</span>
+        <h2 class="section-title" id="ueber-heading">Was ist<br>diese Webseite?</h2>
+        <p>
+          Es ist der praktische Teil von meiner <strong>Seminararbeit</strong>, wo ich versuche, eine Webseite im Comic-Stil zugestalten. 
+        </p>
+        <p>
+          Mithilfe von <strong>HTML</strong> und <strong>CSS</strong> habe ich versucht, Elemente von Neobrutalismus zu präsentieren.
+        </p>
+        <p>
+          Diese Webseite könnte auch als unsere <strong>Online-Galerie</strong> dienen.
+        </p>
+      </div>
+
+      <div class="ueber-deko" aria-hidden="true">
+        <div class="deko-cell">POW!</div>
+        <div class="deko-cell">ZAP!</div>
+        <div class="deko-cell">BAM!</div>
+        <div class="deko-cell">WOW!</div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <span class="footer-logo">W-Seminar SEITE</span>
+    <nav class="footer-nav">
+      <ul class="footer-links" role="list">
+        <li><a href="#galerie">Galerie</a></li>
+        <li><a href="#ueber">Über das Projekt</a></li>
+        <li><a href="#">Impressum</a></li>
+      </ul>
+    </nav>
+    <p class="footer-copy">
+      2026 W-Seminar
+    </p>
+  </footer>
+
+  <script src="galerie.js" defer></script>
+</body>
+</html>
