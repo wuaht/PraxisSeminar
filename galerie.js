@@ -1,12 +1,14 @@
 const WERKE = [
-  { src: '1.webp', artist: 'A. L.', alt: 'Digitale Zeichnung: Dachzimmer mit gestreifter Tapete, offenem Spitzbogenfenster, Schreibtisch, Stuhl und Bett' },
-  { src: '2.webp', artist: 'A. L.', alt: 'Digitale Zeichnung: Kind mit braunen Haaren und blauem T-Shirt sitzt vor einem Fenster mit orangen Vorhängen' },
-  { src: '3.webp', artist: 'A. L.', alt: 'Digitale Zeichnung: Esszimmer mit gedecktem Tisch, zwei Holzstühlen, Bücherschrank, Teppich und sonnigem Fenster' },
-  { src: '4.webp', artist: 'A. L.', alt: 'Digitale Zeichnung: Nahaufnahme des Kindes, das mit halb geschlossenen Augen auf dem Holzboden liegt' },
-  { src: '5.webp', artist: 'A. L.', alt: 'Digitale Zeichnung: Das Kind liegt ausgestreckt auf dem Holzboden und schaut nach oben' },
-  { src: '6.webp', artist: 'A. L.', alt: 'Digitale Zeichnung: Kleines efeubewachsenes Haus mit rotem Dach auf einer Wiese unter blauem Himmel' },
-  { src: '7.webp', artist: 'C. Z.', alt: 'Kohlezeichnungen in vier Panels: Dachkante von unten, Auto auf einer Straße, grasendes Pferd und Blick auf ein Rad' },
+  { src: '1.webp', artist: 'La. A.', alt: 'Digitale Zeichnung: Dachzimmer mit gestreifter Tapete, offenem Spitzbogenfenster, Schreibtisch, Stuhl und Bett' },
+  { src: '2.webp', artist: 'La. A.', alt: 'Digitale Zeichnung: Kind mit braunen Haaren und blauem T-Shirt sitzt vor einem Fenster mit orangen Vorhängen' },
+  { src: '3.webp', artist: 'La. A.', alt: 'Digitale Zeichnung: Esszimmer mit gedecktem Tisch, zwei Holzstühlen, Bücherschrank, Teppich und sonnigem Fenster' },
+  { src: '4.webp', artist: 'La. A.', alt: 'Digitale Zeichnung: Nahaufnahme des Kindes, das mit halb geschlossenen Augen auf dem Holzboden liegt' },
+  { src: '5.webp', artist: 'La. A.', alt: 'Digitale Zeichnung: Das Kind liegt ausgestreckt auf dem Holzboden und schaut nach oben' },
+  { src: '6.webp', artist: 'La. A.', alt: 'Digitale Zeichnung: Kleines efeubewachsenes Haus mit rotem Dach auf einer Wiese unter blauem Himmel' },
+  { src: '7.webp', artist: 'C. Z.', alt: '„Das Gestern“, Interpretation nach Marcel van Eeden. Kohlezeichnungen in vier Panels: Dachkante von unten, Auto auf einer Straße, grasendes Pferd und Blick auf ein Rad' },
   { src: '8.webp', artist: 'Y. T.', alt: 'Comicseite in Buntstift: Frau sitzt im Flur, eine Silhouette steht in der Tür; darunter Nahaufnahme mit Sprechblase „Wo ist Bond?!“' },
+  { src: '10.webp', artist: 'Le. A.', alt: 'Buntstiftzeichnungen in Pappe-Rahmen mit Flaggenfarben: sechs Panels mit Alltagsszenen aus verschiedenen Kulturen, umrankt von Efeu' },
+  { src: '11.webp', artist: 'D. D.', alt: 'Bleistift-Comicseite mit gerissenen Panels: Tiermasken vor einer Silhouette, Sprechblasen „Auch wenn uns das Leben Rollen zuweist …“ und „… müssen wir die nicht spielen.“; daneben Frau im Licht, Titel „Menschen sind mehr als Kategorien“' },
 ];
 const BREAKOUT_INDEX = 4;
 
